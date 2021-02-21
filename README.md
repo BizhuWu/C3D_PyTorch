@@ -44,7 +44,7 @@ Project
 &nbsp;
 
 ## Train
-Before training, make sure you have a directory named **`model`** to save checkpoint file.
+Before training, make sure you have a directory named **`model`** in the root project to save checkpoint file.
 ```python
 python3 train.py
 ```
