@@ -1,5 +1,5 @@
 # C3D_PyTorch
-This project includes the whole training process.
+This project includes the whole training process. Specifically, I use PyTorch 1.7 **`VideoIO / Video Datasets Loading API / Video Transform`** to process the Data. [More Details：How to use Video Datasets，Video IO，Video Classification Models，Video Transform in PyTorch](https://blog.csdn.net/qq_36627158/article/details/113791050)
 
 The C3D's paper：Learning Spatiotemporal Features with 3D Convolutional Networks. [download](https://arxiv.org/pdf/1412.0767.pdf)
 
