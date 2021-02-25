@@ -66,7 +66,7 @@ def train(epoch):
             output = model(video_clips)
             loss = F.cross_entropy(output, label)
 
-            loss_plt.append(loss)
+            loss_plt.append(loss.item())
 
             loss.backward()
             optimizer.step()
