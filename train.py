@@ -52,6 +52,8 @@ def train(epoch):
     iteration = 0
     model.train()
     loss_plt=[]
+    
+    model.train()
 
     for i in range(epoch):
         print('current lr', scheduler.get_last_lr())
